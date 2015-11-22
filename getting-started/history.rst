@@ -18,7 +18,7 @@ On Aug 16, 2009, WeiFen wrote in a discussion thread, that he would like to move
 
 Extended Maintenance by Steve Overton and Others
 ------------------------------------------------
-Steve Overton and other contributors stepped up and started to maintain this library in 2009 [10]_. He managed to release 2.3 on May 08, 2009 (more than 68,000 downloads)[11]_[12]_. 2.4 Followed on Oct 30, 2010 with a few new patches [13]_. For the first time, DPS is released with binaries/source code/release notes. This release has been downloaded over 8000 times. Soon release 2.5.0 (with RC1 flag) was available on Nov 25 the same year with more patches included [14]_. This is the last stable release that can be found on SF.net with accumulated downloads of 61,000.
+Steve Overton and other contributors stepped up and started to maintain this library in 2009 [10]_. He managed to release 2.3 on May 08, 2009 (more than 68,000 downloads)[11]_ [12]_. 2.4 Followed on Oct 30, 2010 with a few new patches [13]_. For the first time, DPS is released with binaries/source code/release notes. This release has been downloaded over 8000 times. Soon release 2.5.0 (with RC1 flag) was available on Nov 25 the same year with more patches included [14]_. This is the last stable release that can be found on SF.net with accumulated downloads of 61,000.
 
 GitHub Fork and The DockPanel Suite Organization
 ------------------------------------------------
