@@ -5,3 +5,4 @@ Getting Started
    :titlesonly:
 
    installing-on-windows
+   history
