@@ -29,7 +29,10 @@ import shlex
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+extensions = [
+    'sphinx.ext.intersphinx',
+    'yasfb'
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -100,6 +103,10 @@ pygments_style = 'sphinx'
 # If true, keep warnings as "system message" paragraphs in the built documents.
 #keep_warnings = False
 
+rst_epilog = """
+.. include:: authors.txt
+"""
+
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
@@ -108,7 +115,7 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'alabaster'
+html_theme = 'default'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -146,7 +153,7 @@ html_static_path = ['_static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-#html_last_updated_fmt = '%b %d, %Y'
+html_last_updated_fmt = '%b %d, %Y'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
@@ -222,7 +229,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'dockpanelsuite.tex', u'dockpanelsuite Documentation',
+  (master_doc, 'dockpanelsuite.tex', u'DockPanel Suite Documentation',
    u'Ryan Rastedt, Lex Li, and others', 'manual'),
 ]
 
@@ -252,7 +259,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'dockpanelsuite', u'dockpanelsuite Documentation',
+    (master_doc, 'dockpanelsuite', u'DockPanel Suite Documentation',
      [author], 1)
 ]
 
@@ -266,9 +273,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'dockpanelsuite', u'dockpanelsuite Documentation',
-   author, 'dockpanelsuite', 'One line description of project.',
-   'Miscellaneous'),
+  (master_doc, 'dockpanelsuite', u'DockPanel Suite Documentation',
+   author, 'dockpanelsuite', 'DockPanel Suite Documentation',
+   'WinForms Development'),
 ]
 
 # Documents to append as an appendix to all manuals.
@@ -352,3 +359,15 @@ epub_exclude_files = ['search.html']
 
 # If false, no index is generated.
 #epub_use_index = True
+
+# Example configuration for intersphinx: refer to the Python standard library.
+intersphinx_mapping = {
+    'mvc': ('http://docs.asp.net/projects/mvc/en/latest', 'mvc.inv'),
+    'dotnet': ('http://dotnet.readthedocs.org/en/latest', 'dotnet.inv')
+}
+
+feed_num_items = 15
+feed_skip_regex = '(.)*index'
+feed_base_url = 'http://docs.dockpanelsuite.com/en/latest'
+feed_description = 'DockPanel Suite Documentation'
+feed_author = 'Ryan Rastedt, Lex Li, and others'
