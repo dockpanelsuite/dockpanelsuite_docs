@@ -17,7 +17,7 @@ Topics
     :titlesonly:
 
     getting-started/index
-    how-tos/index
+    tutortials/index
     themes/index
     contribute/index
 
@@ -35,5 +35,5 @@ The documentation on this site is the handiwork of our many `contributors <https
 
 **We accept pull requests!** But you're more likely to have yours accepted if you follow these guidelines:
 
-	1. Read https://github.com/dockpanelsuite/dockpanelsuite/wiki/KB100001
-	2. Follow the :ref:`DockPanel Suite Docs Style Guide <style-guide>`
+	1. Read the `Contributing Guide <https://github.com/dockpanelsuite/dockpanelsuite_docs/blob/master/CONTRIBUTING.md>`_.
+	2. Follow the `ASP.NET 5 Docs Style Guide <https://docs.asp.net/en/latest/contribute/style-guide.html>`_.
