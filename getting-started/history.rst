@@ -32,6 +32,8 @@ Ryan Rastedt purchased the dockpanelsuite.com domain name and designed a new hom
 
 This organization evaluated and merged many community patches. A few releases, such as 2.6, 2.7, 2.8, and 2.9 have been published in the past few years.
 
+.. rubric:: Footnotes
+
 .. [1] http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/1.0.0.0/
 .. [2] http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/2.2/
 .. [3] http://www.codeproject.com/Articles/14336/A-Visual-Studio-2005-like-Interface
