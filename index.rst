@@ -2,11 +2,15 @@
    sphinx-quickstart on Sat Nov 21 17:51:25 2015.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
+   
+.. _index:
 
 DockPanel Suite Documentation
 =============================
 
 .. attention:: DockPanel Suite 2.10 Beta 1 is now available on NuGet! Please read the :doc:`Getting Started <getting-started/index>` instructions for installing the latest version.
+
+.. include:: authors.txt
 
 Topics
 ------
