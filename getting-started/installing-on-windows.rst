@@ -1,7 +1,7 @@
 Installing DockPanel Suite On Windows
 =====================================
 
-By `Lex Li`_, `Steve Smith`_, `Daniel Roth`_
+By `Lex Li`_
 
 This page shows you how to install DockPanel Suite to your project on Windows. 
 
@@ -22,7 +22,7 @@ The easiest way to get started building applications with DockPanel Suite is to 
   
   This will install the latest NuGet tooling.
 
-#. Open/create a Windows Forms project.
+#. Open/create an empty Windows Forms project.
   
 #. Install DockPanel Suite NuGet packages following `NuGet conventions <https://docs.nuget.org/Consume/Package-Manager-Dialog>`_. 
 
