@@ -109,13 +109,13 @@ Close such issues once a meaningful answer is given.
 
 Mark an issue as ``faq candidate`` if it should be considered as an FAQ.
 
-Issue Tags
-----------
+Overview of Issue Tags
+------------------------
 Maintainers should use the tags as early as possible so as to help each other to easily track the progress. The decoration tags are most useful for items which are not yet assigned to milestones.
 
-Item Category Tags
-^^^^^^^^^^^^^^^^^^
-The following tags are used to assign an item to a specific category,
+Tags for Item Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+The following are used to assign an item to a specific category,
 
 * `bug <https://github.com/dockpanelsuite/dockpanelsuite/issues?labels=bug>`_ This item was reported as a bug of this product. The reporter expects a fix.
 * `enhancement <https://github.com/dockpanelsuite/dockpanelsuite/issues?labels=enhancement>`_ This item was reported as an enhancement request. The reporter expects a certain feature to be enhanced or a new feature to be implemented.
@@ -125,9 +125,9 @@ The following tags are used to assign an item to a specific category,
 * `tech debt <https://github.com/dockpanelsuite/dockpanelsuite/issues?labels=tech+debt>`_ This item was reported as bad smells detected in the code base. The reporter expects changes in the code base to remove the bad smells.
 * `pull request <https://github.com/dockpanelsuite/dockpanelsuite/issues?labels=pull+request>`_ This item was used to handle a pull request.
 
-Decoration Tags
-^^^^^^^^^^^^^^^
-The following tags are used to decorate an item so as to make it easy to see its status and required actions,
+Tags for Decoration
+^^^^^^^^^^^^^^^^^^^^^
+The following are used to decorate an item so as to make it easy to see its status and required actions,
 
 * `dependency bug <https://github.com/dockpanelsuite/dockpanelsuite/issues?labels=dependency+bug>`_ This only applies to bug items. It means the bug was caused by a bug of one of the dependencies (such as bugs of .NET Framework/Mono bugs, or bugs of the operating systems).
 * `not an issue <https://github.com/dockpanelsuite/dockpanelsuite/issues?labels=not+an+issue>`_ This means after discussion, there is nothing to be done further (usually for false positives).
