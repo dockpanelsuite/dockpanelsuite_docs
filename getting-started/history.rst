@@ -8,7 +8,7 @@ WeiFen Luo's Efforts and Early Years
 ------------------------------------
 Its 1.0 release was available on Feb 13, 2006, one day before the Valentine's day [1]_. From the SVN repository we could no longer find the commits earlier than Mar 2, 2007. Therefore, we don't know exactly when WeiFen decided to implement this docking library and the day he started. This release has been downloaded more than 57,000 times on SF.net alone (binaries + source package), which is a huge success.
 
-After that, WeiFen published several new releases. Release 2.0 RC was available on Mar 02, 2007. Release 2.0 followed on Apr 02, while release 2.2 was available on Nov 04, 2007 (more than 68,000 downloads)[2]_
+After that, WeiFen published several new releases. Release 2.0 RC was available on Mar 02, 2007. Release 2.0 followed on Apr 02, while release 2.2 was available on Nov 04, 2007 (more than 68,000 downloads) [2]_
 
 Danilo Corallo wrote an article titled "A Visual Studio 2005-like Interface"[3]_ on CodeProject.com initially on Jun 06, 2006 to introduce this library for broader audience. The article has been reviewed for more than 586,000 times with an average rate of 4.89. This article was last updated on 22 Jan, 2007, so it only targets DPS 1.0. However, DPS 2.0 and above do contains breaking changes, so the sample of this article does not work with newer DPS releases.
 
