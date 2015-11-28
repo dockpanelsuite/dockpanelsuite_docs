@@ -11,7 +11,9 @@ This page shows you how to use DockPanel Suite repo on GitHub to collaborate.
 
 Submitting a Patch
 ------------------
-An issue might be opened to discuss with the maintainers before creating the patch. This helps the maintainers track your progress, and provide guidance if needed.
+
+An issue might be opened to discuss with the maintainers before creating the patch. This helps the 
+maintainers track your progress, and provide guidance if needed.
 
 #. Learn about GitHub via http://help.github.com/.
 #. Create your own fork from the main repo at https://github.com/dockpanelsuite/dockpanelsuite.
@@ -28,6 +30,7 @@ Patches will be reviewed and merged as early as possible.
 
 Reviewing a Patch
 -----------------
+
 Maintainers should respond to new pull requests as early as possible by commenting like this,
 
 * "Acknowledged. Will start review." 
@@ -43,6 +46,7 @@ which will keep all discussions public to reveal all necessary technical informa
 
 Reporting a Bug
 ---------------
+
 .. note:: If you already have a ptach for the bug, please follow `Submitting a Patch`_ section.
 
 .. note:: If you are not sure whether it is a bug, please follow `Asking a Question`_ section.
@@ -52,10 +56,12 @@ Reporting a Bug
 #. Please also review all open bugs on `SF.net tracker <https://sourceforge.net/tracker/?group_id=110642>`_ before reporting. Existing bugs recorded on SF.net may be gradually fixed in this fork, so you don't need to create duplicate items on GitHub.
 #. Create a new issue on https://github.com/dockpanelsuite/dockpanelsuite/issues and provide all information in details.
 
-You are welcome to provide step by step instructions, as that can help other reproduce and investigate the issue. If you are willing to share a sample project, please use a service such as `DropBox <http://dropbox.com>`_ or `OneDrive <http://onedrive.com>`_.
+You are welcome to provide step by step instructions, as that can help other reproduce and investigate 
+the issue. If you are willing to share a sample project, please use a service such as `DropBox <http://dropbox.com>`_ or `OneDrive <http://onedrive.com>`_.
 
 Reviewing a Bug
 ---------------
+
 Maintainers should respond to bug reports as early as possible by commenting like this,
 
 * "Acknowledged. Will start review." 
@@ -71,8 +77,10 @@ which will keep all discussions public to reveal all necessary technical informa
 
 Asking a Question
 -----------------
+
 Asking a Question on StackOverflow (Recommended)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 #. Log into `StackOverflow <http://stackoverflow.com>`_.
 #. Before starting asking a new question, please review all questions under tag ``dockpanel-suite`` in case yours has already been answered.
 #. Click Ask Question to create a new question. 
@@ -82,12 +90,14 @@ Then you can wait till users reply to your question.
 
 Asking a Question on GitHub
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 #. Learn about GitHub via http://help.github.com/.
 #. Before creating the issue, please review all existing issues especially our `FAQ <https://github.com/dockpanelsuite/dockpanelsuite/issues?labels=faq+candidate&milestone=&page=1&state=closed>`_ in case the issue has already been reported and resolved.
 #. Create a new issue on https://github.com/dockpanelsuite/dockpanelsuite/issues and provide all information in details. 
 
 Answering a Question
 --------------------
+
 Maintainers might join StackOverflow and monitor discussions under ``dockpanel-suite`` tag.
 
 Maintainers should respond to questions on GitHub as early as possible by commenting like this,
@@ -111,10 +121,12 @@ Mark an issue as ``faq candidate`` if it should be considered as an FAQ.
 
 Overview of Issue Tags
 ------------------------
+
 Maintainers should use the tags as early as possible so as to help each other to easily track the progress. The decoration tags are most useful for items which are not yet assigned to milestones.
 
 Tags for Item Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 The following are used to assign an item to a specific category,
 
 * `bug <https://github.com/dockpanelsuite/dockpanelsuite/issues?labels=bug>`_ This item was reported as a bug of this product. The reporter expects a fix.

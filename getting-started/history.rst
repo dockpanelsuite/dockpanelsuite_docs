@@ -1,5 +1,8 @@
 Project History
 ===============
+
+By `Lex Li`_
+
 Microsoft first introduced the docking panel layout in Visual Studio .NET (2002), and soon it became popular in application design. Many commercial .NET component vendors started to provide docking libraries initially, but there was no good free and open source alternative, until WeiFen Luo released DockPanel Suite (DPS for short) on SourceForge.net in 2006.
 
 http://sourceforge.net/projects/dockpanelsuite

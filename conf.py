@@ -103,7 +103,7 @@ pygments_style = 'sphinx'
 #keep_warnings = False
 
 rst_epilog = """
-.. include:: authors.txt
+.. include:: /./authors.txt
 """
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
@@ -373,10 +373,10 @@ epub_exclude_files = ['search.html']
 #epub_use_index = True
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {
-    'mvc': ('http://docs.asp.net/projects/mvc/en/latest', 'mvc.inv'),
-    'dotnet': ('http://dotnet.readthedocs.org/en/latest', 'dotnet.inv')
-}
+#intersphinx_mapping = {
+#    'mvc': ('http://docs.asp.net/projects/mvc/en/latest', 'mvc.inv'),
+#    'dotnet': ('http://dotnet.readthedocs.org/en/latest', 'dotnet.inv')
+#}
 
 feed_num_items = 15
 feed_skip_regex = '(.)*index'

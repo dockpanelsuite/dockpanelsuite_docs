@@ -12,7 +12,9 @@ Visual Studio 2003 Theme
 ------------------------
 This is a theme that simulates Visual Studio 2003.
 
-To apply this theme, the following code can be used::
+To apply this theme, the following code can be used
+
+.. code-block:: csharp
 
   var theme = new VS2003Theme();
   this.dockPanel.Theme = theme;
@@ -21,7 +23,8 @@ To apply this theme, the following code can be used::
 
 Visual Studio 2005 Theme
 ------------------------
-This is the default theme of DockPanel Suite. When you create a new instance of ``DockPanel`` class, the dock panel and its contents use this theme automatically.
+This is the default theme of DockPanel Suite. When you create a new instance of ``DockPanel`` 
+class, the dock panel and its contents use this theme automatically.
 
 Visual Studio 2012 Light Theme
 ------------------------------
@@ -30,6 +33,8 @@ This is a theme that simulates Visual Studio 2012 Light.
 .. note:: It is introduced in 2.9 release.
 
 To apply this theme, the following code can be used::
+
+.. code-block:: csharp
 
   var theme = new VS2012LightTheme();
   this.dockPanel.Theme = theme;
@@ -43,6 +48,8 @@ This is a new theme that simulates Visual Studio 2013 Blue.
 .. note:: It is introduced in 2.10 release.
 
 To apply this theme, the following code can be used::
+
+.. code-block:: csharp
 
   var theme = new VS2013BlueTheme();
   this.dockPanel.Theme = theme;
