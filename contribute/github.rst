@@ -47,7 +47,7 @@ which will keep all discussions public to reveal all necessary technical informa
 Reporting a Bug
 ---------------
 
-.. note:: If you already have a ptach for the bug, please follow `Submitting a Patch`_ section.
+.. note:: If you already have a patch for the bug, please follow `Submitting a Patch`_ section.
 
 .. note:: If you are not sure whether it is a bug, please follow `Asking a Question`_ section.
 
