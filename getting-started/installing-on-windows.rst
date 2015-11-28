@@ -48,7 +48,7 @@ The easiest way to get started building applications with DockPanel Suite is to 
       this.Controls.Add(this.dockPanel); 
   }
   
-6. Create other panels by creating new Form or new UserControl in Visual Studio
+6. Create other panels by creating a new ``Form`` or new ``UserControl`` in Visual Studio
 
 .. code-block:: csharp
 
@@ -91,11 +91,11 @@ DockPanel Suite source code can be directly used in your project.
  
 5. Compile the solution and DockPanel Suite controls are automatically added to Toolbox panel.
 
-6. Open main form of the empty project, and drag the DockPanel control from Toolbox on to it.
+6. Open main form of the empty project, and drag the ``DockPanel`` control from Toolbox on to it.
 
   This will let Visual Studio generate the necessary code.
 
-7. Create other panels by creating new Form or new UserControl in Visual Studio
+7. Create other panels by creating new ``Form`` or new ``UserControl`` in Visual Studio
 
 .. code-block:: csharp
 
