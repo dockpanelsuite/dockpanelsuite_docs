@@ -1,7 +1,7 @@
 Customizing FloatWindow
 =======================
 
-By `Ryan Rastedt`_
+By `Ryan Rastedt`_, `Lex Li`_
 
 This page shows you how to customize ``FloatWindow``. 
 
@@ -55,7 +55,7 @@ the ``IFloatWindowFactory`` interface
       }
   }
 
-Lastly, provide the new factory to the ``DockPanel`` control
+Lastly, attach the new factory to the ``DockPanel`` control,
 
 .. code-block:: csharp
 
@@ -84,3 +84,17 @@ in your ``CustomFloatWindow`` constructor
 .. code-block:: csharp
 
   DoubleClickTitleBarToDock = false;
+
+Positioning for Multiple Monitors
+---------------------------------
+When a dock content is set to float, the created ``FloatWindow`` might be at a 
+secondary monitor (depending on WinForms underlying positioning).
+
+To force the ``FloatWindow`` to appear on a desired monitor, a custom ``FloatWindow`` 
+can be created. Then override its ``SetBoundsCore`` method to check the monitors based 
+on the information exposed by the ``Screen`` class.
+
+Top-Most FloatWindow
+--------------------
+To make the ``FloatWindow`` top-most, simply create a custom ``FloatWindow`` class and 
+set its ``TopMost`` property to true.
