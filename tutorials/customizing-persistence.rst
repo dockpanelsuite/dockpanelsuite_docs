@@ -8,6 +8,14 @@ This page shows you how to customize persistence.
 .. contents:: In this article:
   :local:
   :depth: 1
+  
+Layout File Format
+------------------
+``DockPanel.Persistor.SaveAsXml`` is the method who saves current layout to an XML file.
+
+It is not recommended to manually edit the generated layout file, as its syntax is complicated.
+
+To achieve customization, it is recommended to override the persistent string.
 
 Overriding Persistent String
 ----------------------------

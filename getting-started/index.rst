@@ -5,4 +5,5 @@ Getting Started
    :titlesonly:
 
    installing-on-windows
+   installing-in-visualstudio
    history
