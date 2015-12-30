@@ -28,12 +28,13 @@ The easiest way to get started building applications with DockPanel Suite is to 
 
   The latest packages can be found at,
   
-  * `Main Library with VS2005 Theme <https://www.nuget.org/packages/DockPanelSuite/2.10.0-beta1>`_.
-  * `VS2003 Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2003/2.10.0-beta1>`_.
-  * `VS2012 Light Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012Light/2.10.0-beta1>`_.
-  * `VS2013 Blue Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2013Blue/2.10.0-beta1>`_.
+  * `Main Library with VS2005 Theme <https://www.nuget.org/packages/DockPanelSuite/>`_.
+  * `VS2003 Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2003/>`_.
+  * `VS2012 Light Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012Light/>`_.
+  * `VS2013 Blue Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2013Blue/>`_.
+  * `VS2005 Theme for Multiple UI Threads <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2005Multithreading/>`_.  
     
-  *Note that the 2.10 packages are pre-release.*
+  *Note that the 2.10 packages are pre-release, and the ``VS2005MultithreadingTheme`` is not recommended for general usage.*
 
 5. Create the ``DockPanel`` control in code and insert to the main form
 

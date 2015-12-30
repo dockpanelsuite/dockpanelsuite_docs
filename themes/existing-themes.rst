@@ -56,6 +56,10 @@ To apply this theme, the following code can be used::
 
 .. note:: for 2.10 and above, a reference to ``ThemeVS2013Blue.dll`` (from NuGet package `DockPanelSuite.ThemeVS2013Blue <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2013Blue>`_) is needed.
 
+Visual Studio 2005 Theme for Multiple UI Threads
+------------------------------------------------
+This is derived from the default theme of DockPanel Suite. It is released for applications that use multiple UI threads only, so not recommended for general usage.
+
 Switching among Themes
 ----------------------
 The sample project demonstrates how to switch among themes,
