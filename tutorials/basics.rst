@@ -51,3 +51,25 @@ However, sometimes the contents should be placed into different panes and shown 
   amcActivateModsMonitor.Show(dmcDownloadMonitor.Pane, DockAlignment.Right, 0.5);
 
 
+How to Lock Layout and Prevent Dock Panels From Moving
+------------------------------------------------------
+
+Lock Entire Layout
+^^^^^^^^^^^^^^^^^^
+To lock the entire layout, the following snippet can be used to disable all end user docking at ``DockPanel`` level,
+
+.. code-block:: csharp
+
+  dockPanel.AllowEndUserDocking = false;
+
+Lock A Single Panels
+^^^^^^^^^^^^^^^^^^^^
+To lock only a single panel, the following snippet can be used to disable all end user docking at ``DockContent`` level,
+
+.. code-block:: csharp
+
+  dockContent.DockHandler.AllowEndUserDocking = false;
+
+Avoid A Few Dock States
+^^^^^^^^^^^^^^^^^^^^^^^
+To prevent a dock panel from entering some dock states, set ``DockContent.DockAreas`` to only the areas that are desired.
