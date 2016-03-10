@@ -78,3 +78,7 @@ It is possible to add keyboard shortcuts to enable switching among document tabs
 Remove a DockContent From DockPanel
 -----------------------------------
 To release a ``DockContent`` from ``DockPanel``, simply set ``DockContent.DockHandler.DockPanel`` to ``null``.
+
+.. code-block:: csharp
+
+  dockContent.DockHandler.DockPanel = null;
