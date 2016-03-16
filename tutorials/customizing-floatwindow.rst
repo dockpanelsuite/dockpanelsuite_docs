@@ -18,7 +18,7 @@ Utilizing the ``Extender`` functionality of ``DockPanel`` it's easy to customize
 The first step is to create a custom class that extends ``FloatWindow``. By default, 
 ``FloatWindow`` has a ``FormBorderStyle`` of ``SizableToolWindow`` which will only provide 
 a close button. To expose the maximize and minimize button, set ``FormBorderStyle`` of 
-the custom window to ``Sizable``
+the custom window to ``Sizable``,
 
 .. code-block:: csharp
 
@@ -38,7 +38,7 @@ the custom window to ``Sizable``
   }
 
 Next, create a factory class to create the ``CustomFloatWindow``. This is done by implementing 
-the ``IFloatWindowFactory`` interface
+the ``IFloatWindowFactory`` interface,
 
 .. code-block:: csharp
 
@@ -64,7 +64,7 @@ Lastly, attach the new factory to the ``DockPanel`` control,
 Alt+Tab Support
 ---------------
 To enable Alt+Tab between your undocked forms and your main form add this to 
-your ``CustomFloatWindow`` constructors
+your ``CustomFloatWindow`` constructors,
 
 .. code-block:: csharp
 
@@ -79,7 +79,7 @@ Overriding Double Clicking Behavior
 By default, when a float window's title bar is double clicked it is redocked into 
 the ``DockPanel``. This behavior can be disabled (and allow the Windows default 
 behavior of maximizing/restoring the window) by setting the following property 
-in your ``CustomFloatWindow`` constructor
+in your ``CustomFloatWindow`` constructor,
 
 .. code-block:: csharp
 

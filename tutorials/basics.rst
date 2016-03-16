@@ -50,7 +50,6 @@ However, sometimes the contents should be placed into different panes and shown 
   dmcDownloadMonitor.Show(dockPanel, DockState.DockBottom);
   amcActivateModsMonitor.Show(dmcDownloadMonitor.Pane, DockAlignment.Right, 0.5);
 
-
 How to Lock Layout and Prevent Dock Panels From Moving
 ------------------------------------------------------
 

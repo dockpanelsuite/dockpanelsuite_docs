@@ -12,7 +12,7 @@ New Themes in Incubation
 ------------------------
 Lex Li has a few blog posts on theming when he attempted to integrate the VS 2012 Light theme to the code base, which might get you started.
 
-The following themes are currently under development (mainly be community members),
+The following themes are currently under development (mainly contributed by community members),
 
 * VS 2013 Blue (in vs2013blue branch for incubation, see #316 for progress)
 

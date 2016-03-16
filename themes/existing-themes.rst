@@ -12,7 +12,7 @@ Visual Studio 2003 Theme
 ------------------------
 This is a theme that simulates Visual Studio 2003.
 
-To apply this theme, the following code can be used
+To apply this theme, the following code can be used,
 
 .. code-block:: csharp
 
