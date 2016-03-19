@@ -65,3 +65,10 @@ Switching among Themes
 The sample project demonstrates how to switch among themes,
 
 https://github.com/dockpanelsuite/dockpanelsuite/blob/master/DockSample/MainForm.cs#L159
+
+Related Resources
+-----------------
+
+- :doc:`/getting-started/installing-on-windows`
+- :doc:`/tutorials/basics`
+- :doc:`/themes/creating-new-theme`

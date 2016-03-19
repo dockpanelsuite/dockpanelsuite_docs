@@ -82,3 +82,13 @@ To release a ``DockContent`` from ``DockPanel``, simply set ``DockContent.DockHa
 .. code-block:: csharp
 
   dockContent.DockHandler.DockPanel = null;
+
+Related Resources
+-----------------
+
+- :doc:`/getting-started/installing-on-windows`
+- :doc:`/tutorials/basics`
+- :doc:`/tutorials/customizing-dockwindow`
+- :doc:`/tutorials/customizing-floatwindow`
+- :doc:`/tutorials/customizing-persistence`
+- :doc:`/themes/existing-themes`

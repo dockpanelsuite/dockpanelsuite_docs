@@ -72,3 +72,13 @@ To lock only a single panel, the following snippet can be used to disable all en
 Avoid A Few Dock States
 ^^^^^^^^^^^^^^^^^^^^^^^
 To prevent a dock panel from entering some dock states, set ``DockContent.DockAreas`` to only the areas that are desired.
+
+Related Resources
+-----------------
+
+- :doc:`/getting-started/installing-on-windows`
+- :doc:`/tutorials/customizing-dockcontent`
+- :doc:`/tutorials/customizing-dockwindow`
+- :doc:`/tutorials/customizing-floatwindow`
+- :doc:`/tutorials/customizing-persistence`
+- :doc:`/themes/existing-themes`

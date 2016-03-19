@@ -14,25 +14,25 @@ Install DockPanel Suite via NuGet
 
 The easiest way to get started building applications with DockPanel Suite is to install via NuGet in the latest version of Visual Studio 2015 (including the free Community edition). 
 
-1. Install `Visual Studio 2015 <https://go.microsoft.com/fwlink/?LinkId=532606>`_.
+1. Install `Visual Studio 2015 <https://go.microsoft.com/fwlink/?LinkId=532606>`_ .
 
   Be sure to specify that you include the Windows and Web Development.
 
-2. Install latest `NuGet Package Manager <https://docs.nuget.org/consume/installing-nuget>`_. 
+2. Install latest `NuGet Package Manager <https://docs.nuget.org/consume/installing-nuget>`_ . 
   
   This will install the latest NuGet tooling.
 
 3. Open/create an empty Windows Forms project.
   
-4. Install DockPanel Suite NuGet packages following `NuGet conventions <https://docs.nuget.org/Consume/Package-Manager-Dialog>`_. 
+4. Install DockPanel Suite NuGet packages following `NuGet conventions <https://docs.nuget.org/Consume/Package-Manager-Dialog>`_ . 
 
   The latest packages can be found at,
   
-  * `Main Library with VS2005 Theme <https://www.nuget.org/packages/DockPanelSuite/>`_.
-  * `VS2003 Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2003/>`_.
-  * `VS2012 Light Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012Light/>`_.
-  * `VS2013 Blue Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2013Blue/>`_.
-  * `VS2005 Theme for Multiple UI Threads <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2005Multithreading/>`_.  
+  * `Main Library with VS2005 Theme <https://www.nuget.org/packages/DockPanelSuite/>`_ .
+  * `VS2003 Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2003/>`_ .
+  * `VS2012 Light Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012Light/>`_ .
+  * `VS2013 Blue Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2013Blue/>`_ .
+  * `VS2005 Theme for Multiple UI Threads <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2005Multithreading/>`_ .  
     
   *Note that the 2.10 packages are pre-release, and the ``VS2005MultithreadingTheme`` is not recommended for general usage.*
 
@@ -77,12 +77,12 @@ Change the base type to ``WeifenLuo.WinFormsUI.Docking.DockContent``
       dockContent.Show(this.dockPanel, DockState.Document);
   }
   
-Install DockPanel Suite via source code
+Install DockPanel Suite via Source Code
 ---------------------------------------
 
 DockPanel Suite source code can be directly used in your project. 
 
-1. Download the source code from `GitHub <https://github.com/dockpanelsuite/dockpanelsuite/releases>`_, or clone the repo directly.
+1. Download the source code from `GitHub <https://github.com/dockpanelsuite/dockpanelsuite/releases>`_ , or clone the repo directly.
 
 2. Open/create a empty Windows Forms project in a solution.
 
@@ -123,3 +123,19 @@ Change the base type to ``WeifenLuo.WinFormsUI.Docking.DockContent``
       var dockContent = new NewDockContent();
       dockContent.Show(this.dockPanel, DockState.Document);
   }
+
+Compile DockPanel Suite from Source Code
+----------------------------------------
+1. Download the source code from `GitHub <https://github.com/dockpanelsuite/dockpanelsuite/releases>`_ , or clone the repo directly.
+2. Make sure that .NET Framework 4.0 (or above) is installed.
+3. Run ``all.bat`` in the source code to start compilation.
+
+If everything works, then the binaries are in the ``bin`` folder.
+
+Related Resources
+-----------------
+
+- :doc:`/getting-started/installing-in-visualstudio`
+- :doc:`/getting-started/history`
+- :doc:`/tutorials/basics`
+- :doc:`/themes/existing-themes`

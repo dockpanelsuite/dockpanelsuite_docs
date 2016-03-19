@@ -98,3 +98,13 @@ Top-Most FloatWindow
 --------------------
 To make the ``FloatWindow`` top-most, simply create a custom ``FloatWindow`` class and 
 set its ``TopMost`` property to true.
+
+Related Resources
+-----------------
+
+- :doc:`/getting-started/installing-on-windows`
+- :doc:`/tutorials/basics`
+- :doc:`/tutorials/customizing-dockcontent`
+- :doc:`/tutorials/customizing-dockwindow`
+- :doc:`/tutorials/customizing-persistence`
+- :doc:`/themes/existing-themes`

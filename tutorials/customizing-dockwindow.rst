@@ -17,3 +17,13 @@ can be inserted to. By changing their Z-order, the layout style can be controlle
 .. code-block:: csharp
 
   this.dockPanel.UpdateDockWindowZOrder(DockStyle.Right, true);
+
+Related Resources
+-----------------
+
+- :doc:`/getting-started/installing-on-windows`
+- :doc:`/tutorials/basics`
+- :doc:`/tutorials/customizing-dockcontent`
+- :doc:`/tutorials/customizing-floatwindow`
+- :doc:`/tutorials/customizing-persistence`
+- :doc:`/themes/existing-themes`

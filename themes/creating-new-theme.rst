@@ -17,3 +17,10 @@ The following themes are currently under development (mainly contributed by comm
 * VS 2013 Blue (in vs2013blue branch for incubation, see #316 for progress)
 
 * VS 2012 Dark (in various forks by different authors, see #317 for details)
+
+Related Resources
+-----------------
+
+- :doc:`/getting-started/installing-on-windows`
+- :doc:`/tutorials/basics`
+- :doc:`/themes/existing-themes`

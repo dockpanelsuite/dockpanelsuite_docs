@@ -55,3 +55,10 @@ This organization evaluated and merged many community patches. A few releases, s
 .. [16] http://sourceforge.net/projects/dockpanelsuite/forums/forum/402316/topic/5271451
 .. [17] https://github.com/nirvdrum/svn2git
 .. [18] http://dockpanelsuite.com
+
+Related Resources
+-----------------
+
+- :doc:`/getting-started/installing-on-windows`
+- :doc:`/tutorials/basics`
+- :doc:`/themes/existing-themes`

@@ -177,3 +177,10 @@ Please leave a message that you are going to review a pull request. That should 
 Leave all comments at a time, so that the submitter can revise them altogether to form a new commit.
 
 Decide carefully whether to accept or reject a pull request. Leave explanation for future reference.
+
+Related Resources
+-----------------
+
+- :doc:`/getting-started/installing-on-windows`
+- :doc:`/tutorials/basics`
+- :doc:`/themes/existing-themes`
