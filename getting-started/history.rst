@@ -33,7 +33,7 @@ https://github.com/dockpanelsuite/dockpanelsuite
 
 Ryan Rastedt purchased the dockpanelsuite.com domain name and designed a new home page [18]_ for this project.
 
-This organization evaluated and merged many community patches. A few releases, such as 2.6, 2.7, 2.8, and 2.9 have been published in the past few years.
+This organization evaluated and merged many community patches. A few releases, such as 2.6, 2.7, 2.8, 2.9, and 2.10 have been published in the past few years.
 
 .. rubric:: Footnotes
 

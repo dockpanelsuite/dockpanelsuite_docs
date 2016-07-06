@@ -19,7 +19,7 @@ To apply this theme, the following code can be used,
   var theme = new VS2003Theme();
   this.dockPanel.Theme = theme;
   
-.. note:: for 2.10 and above, a reference to ``ThemeVS2003.dll`` (from NuGet package `DockPanelSuite.ThemeVS2003 <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2003>`_) is needed.
+.. note:: For 2.10 and above, a reference to ``ThemeVS2003.dll`` (from NuGet package `DockPanelSuite.ThemeVS2003 <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2003>`_) is needed.
 
 Visual Studio 2005 Theme
 ------------------------
@@ -39,7 +39,7 @@ To apply this theme, the following code can be used::
   var theme = new VS2012LightTheme();
   this.dockPanel.Theme = theme;
 
-.. note:: for 2.10 and above, a reference to ``ThemeVS2012Light.dll`` (from NuGet package `DockPanelSuite.ThemeVS2012Light <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012Light>`_) is needed.
+.. note:: For 2.10 and above, a reference to ``ThemeVS2012Light.dll`` (from NuGet package `DockPanelSuite.ThemeVS2012Light <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012Light>`_) is needed.
 
 Visual Studio 2013 Blue Theme
 -----------------------------
@@ -54,7 +54,7 @@ To apply this theme, the following code can be used::
   var theme = new VS2013BlueTheme();
   this.dockPanel.Theme = theme;
 
-.. note:: for 2.10 and above, a reference to ``ThemeVS2013Blue.dll`` (from NuGet package `DockPanelSuite.ThemeVS2013Blue <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2013Blue>`_) is needed.
+.. note:: For 2.10 and above, a reference to ``ThemeVS2013Blue.dll`` (from NuGet package `DockPanelSuite.ThemeVS2013Blue <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2013Blue>`_) is needed.
 
 Visual Studio 2005 Theme for Multiple UI Threads
 ------------------------------------------------

@@ -10,7 +10,7 @@ This page shows you how to create a new theme.
 
 New Themes in Incubation
 ------------------------
-Lex Li has a few blog posts on theming when he attempted to integrate the VS 2012 Light theme to the code base, which might get you started.
+Lex Li has `a few blog posts <https://blog.lextudio.com/category/dockpanel-suite/>`_ on theming when he attempted to integrate the VS 2012 Light theme to the code base, which might get you started.
 
 The following themes are currently under development (mainly contributed by community members),
 
