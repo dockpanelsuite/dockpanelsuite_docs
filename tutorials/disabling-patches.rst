@@ -69,7 +69,7 @@ To disable a patch such as the HiDPI patch via registry key, please create a key
 value named "EnableHighDpi" which should be set to "false".
 
 Current Patches in Testing
-==========================
+--------------------------
 There are several patches included in 2.11 for testing. They are,
 
 * `GitHub #155 a focus lost fix <https://github.com/dockpanelsuite/dockpanelsuite/issues/321>`_
