@@ -9,3 +9,4 @@ Tutorials
    customizing-dockwindow
    customizing-floatwindow
    customizing-persistence
+   disabling-patches

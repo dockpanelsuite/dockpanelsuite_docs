@@ -36,6 +36,8 @@ The easiest way to get started building applications with DockPanel Suite is to 
 
   .. note:: ``VS2005MultithreadingTheme`` is not recommended for general usage.*
 
+  .. warning:: Theme package version should match main library version whenever possible. Otherwise, there can be compatibility issues.
+
 5. Create the ``DockPanel`` control in code and insert to the main form
 
 .. code-block:: csharp
