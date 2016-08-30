@@ -20,7 +20,7 @@ or fully understand the code base.
 
 Patch Controller Design
 -----------------------
-In order to make patch evaluationi more efficient, a mechanism called Patch Controller is designed for 2.11+.
+In order to make patch evaluation more efficient, a mechanism called Patch Controller is designed for 2.11+.
 
 This allows us to ship selected patches and turn them on by default, which gives a bigger audience opportunities to play with the patches. 
 It would be more likely that we receive bug reports and feedbacks on such patches. Of course, this mechanism also allows users to disable 
