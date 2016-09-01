@@ -30,24 +30,24 @@ constructor.
 
   public static DockPanelSkin CreateVisualStudio2012Light()
   {
-      var specialBlue = Color.FromArgb(0xFF, 0x00, 0x7A, 0xCC);
-      var dot = Color.FromArgb(80, 170, 220);
-      var activeTab = specialBlue;
-      var mouseHoverTab = Color.FromArgb(0xFF, 28, 151, 234);
-      var inactiveTab = SystemColors.Control;
-      var lostFocusTab = Color.FromArgb(0xFF, 204, 206, 219);
       var skin = new DockPanelSkin();
 
-      skin.AutoHideStripSkin.DockStripGradient.StartColor = specialBlue;
-      skin.AutoHideStripSkin.DockStripGradient.EndColor = SystemColors.ControlLight;
-      skin.AutoHideStripSkin.TabGradient.TextColor = SystemColors.ControlDarkDark;
+      skin.ColorPalette.MainWindowActive.Background = ColorTranslator.FromHtml("#FFEFEFF2");
+
+      skin.ColorPalette.AutoHideStripDefault.Background = ColorTranslator.FromHtml("#FFEFEFF2");
+      skin.ColorPalette.AutoHideStripDefault.Border = ColorTranslator.FromHtml("#FFCCCEDB");
+      skin.ColorPalette.AutoHideStripDefault.Text = ColorTranslator.FromHtml("#FF444444");
+
+      skin.ColorPalette.AutoHideStripHovered.Background = ColorTranslator.FromHtml("#FFEFEFF2");
+      skin.ColorPalette.AutoHideStripHovered.Border = ColorTranslator.FromHtml("#FF007ACC");
+      skin.ColorPalette.AutoHideStripHovered.Text = ColorTranslator.FromHtml("#FF0E70C0");
 
       return skin;
   }
 
-``DockPanelSkin`` currently is a simple container of different kinds of colors. It was mainly developed for 
-Visual Studio 2005 theme, so you might notice that later themes might not use it in a most efficient way. This 
-will be addressed in the future via proper refactoring.
+``DockPanelSkin`` was a simple container of different kinds of colors. It was mainly developed for 
+Visual Studio 2005 theme. 2.11 release introduces the new palette based skins, which makes creating 
+new themes much easier.
 
 Themes should implement one method so DockPanel Suite can apply them on demand,
 
@@ -56,16 +56,16 @@ Themes should implement one method so DockPanel Suite can apply them on demand,
   public override void Apply(DockPanel dockPanel)
   {
       Measures.SplitterSize = 6;
-      dockPanel.Extender.DockPaneCaptionFactory = new VS2012LightDockPaneCaptionFactory();
-      dockPanel.Extender.AutoHideStripFactory = new VS2012LightAutoHideStripFactory();
-      dockPanel.Extender.AutoHideWindowFactory = new VS2012LightAutoHideWindowFactory();
-      dockPanel.Extender.DockPaneStripFactory = new VS2012LightDockPaneStripFactory();
-      dockPanel.Extender.DockPaneSplitterControlFactory = new VS2012LightDockPaneSplitterControlFactory();
-      dockPanel.Extender.DockWindowSplitterControlFactory = new VS2012LightDockWindowSplitterControlFactory();
-      dockPanel.Extender.DockWindowFactory = new VS2012LightDockWindowFactory();
-      dockPanel.Extender.PaneIndicatorFactory = new VS2012LightPaneIndicatorFactory();
-      dockPanel.Extender.PanelIndicatorFactory = new VS2012LightPanelIndicatorFactory();
-      dockPanel.Extender.DockOutlineFactory = new VS2012LightDockOutlineFactory();
+      dockPanel.Extender.DockPaneCaptionFactory = new VS2012DockPaneCaptionFactory();
+      dockPanel.Extender.AutoHideStripFactory = new VS2012AutoHideStripFactory();
+      dockPanel.Extender.AutoHideWindowFactory = new VS2012AutoHideWindowFactory();
+      dockPanel.Extender.DockPaneStripFactory = new VS2012DockPaneStripFactory();
+      dockPanel.Extender.DockPaneSplitterControlFactory = new VS2012DockPaneSplitterControlFactory();
+      dockPanel.Extender.DockWindowSplitterControlFactory = new VS2012DockWindowSplitterControlFactory();
+      dockPanel.Extender.DockWindowFactory = new VS2012DockWindowFactory();
+      dockPanel.Extender.PaneIndicatorFactory = new VS2012PaneIndicatorFactory();
+      dockPanel.Extender.PanelIndicatorFactory = new VS2012anelIndicatorFactory();
+      dockPanel.Extender.DockOutlineFactory = new VS2012DockOutlineFactory();
       Skin = CreateVisualStudio2012Light();
   }
 
@@ -85,6 +85,9 @@ The ``DockPanel`` class allows its rendering effect to be further changed by ove
 
 ``Measures`` stores several numbers that control size/length of a few controls. ``SplitterSize`` is here to 
 control the size of splitters.
+
+``CleanUp`` method should be implemented if a customized ``IPaintingService`` implementation is used 
+to clean up GDI+ resources.
 
 You can refer to each of the factory classes to see how a specific part of the theme is customized. Below 
 we will simply check what exactly the above names are there in a theme by highlighting them in screen shots.

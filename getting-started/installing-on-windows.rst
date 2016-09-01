@@ -30,7 +30,8 @@ The easiest way to get started building applications with DockPanel Suite is to 
   
   * `Main Library with VS2005 Theme <https://www.nuget.org/packages/DockPanelSuite/>`_ .
   * `VS2003 Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2003/>`_ .
-  * `VS2012 Light Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012Light/>`_ .
+  * (2.10) `VS2012 Light Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012Light/>`_ .
+  * (2.11+) `VS2012 Themes <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012/>`_ .
   * `VS2013 Blue Theme <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2013Blue/>`_ .
   * `VS2005 Theme for Multiple UI Threads <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2005Multithreading/>`_ .
 

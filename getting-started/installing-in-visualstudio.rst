@@ -22,13 +22,13 @@ Recommended Steps
 5. Under the ".NET Framework Components" "Choose Toolbox Items" dialog, click the "Browse..." button.
 
 6. In the "Open" file dialog, navigate to ``bin\net40`` folder that contains the assemblies, and choose all related 
-files (WerifenLuo.WinFormsUI.Docking.dll, ThemeVS2003.dll, ThemeVS2012Light.dll, and ThemeVS2013Blue.dll).
+files (WerifenLuo.WinFormsUI.Docking.dll, ThemeVS2003.dll, ThemeVS2012Light.dll (2.10), ThemeVS2012.dll (2.11+), and ThemeVS2013Blue.dll).
 
 7. Click the "Open" button to exit the dialog.
 
 8. In ".NET Framework Components" tab, click "Namespace" column header to reorder the list.
 
-9. Make sure that "DockPanel", "VS2003Theme", "VS2005Theme", "VS2012LightTheme", and "VS2013BlueTheme" are checked.
+9. Make sure that "DockPanel", "VS2003Theme", "VS2005Theme", "VS2012LightTheme", "VS2012DarkTheme" (2.11+), and "VS2013BlueTheme" are checked.
 
 10. Click the "OK" button to exit the dialog.
 

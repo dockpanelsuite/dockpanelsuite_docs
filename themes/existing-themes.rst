@@ -26,20 +26,29 @@ Visual Studio 2005 Theme
 This is the default theme of DockPanel Suite. When you create a new instance of ``DockPanel`` 
 class, the dock panel and its contents use this theme automatically.
 
-Visual Studio 2012 Light Theme
+Visual Studio 2012 Themes
 ------------------------------
-This is a theme that simulates Visual Studio 2012 Light. 
+Two themes are there to simulate Visual Studio 2012 Light and Dark. 
 
-.. note:: It is introduced in 2.9 release.
+.. note:: The Light theme is introduced in 2.9 release. The Dark theme is introduced in 2.11 release.
 
-To apply this theme, the following code can be used::
+To apply the Light theme, the following code can be used::
 
 .. code-block:: csharp
 
   var theme = new VS2012LightTheme();
   this.dockPanel.Theme = theme;
 
-.. note:: For 2.10 and above, a reference to ``ThemeVS2012Light.dll`` (from NuGet package `DockPanelSuite.ThemeVS2012Light <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012Light>`_) is needed.
+To apply the Dark theme, the following code can be used::
+
+.. code-block:: csharp
+
+  var theme = new VS2012DarkTheme();
+  this.dockPanel.Theme = theme;
+
+.. note:: For 2.10, a reference to ``ThemeVS2012Light.dll`` (from NuGet package `DockPanelSuite.ThemeVS2012Light <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012Light>`_) is needed. 
+
+.. note:: For 2.11 and above, a reference to ``ThemeVS2012.dll`` (from NuGet package `DockPanelSuite.ThemeVS2012 <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012>`_) is needed.
 
 Visual Studio 2013 Blue Theme
 -----------------------------
