@@ -3,7 +3,7 @@ Basics
 
 By `Lex Li`_
 
-This page shows you the basics about DockPanel Suite themes. 
+This page shows you the basics about DockPanel Suite themes (2.11+).
 
 .. contents:: In this article:
   :local:
@@ -55,21 +55,27 @@ Themes should implement one method so DockPanel Suite can apply them on demand,
 
   public override void Apply(DockPanel dockPanel)
   {
+      if (Extender != null)
+      {
+          return;
+      }
+
+      Extender = new DockPanelExtender(dockPanel);
       Measures.SplitterSize = 6;
-      dockPanel.Extender.DockPaneCaptionFactory = new VS2012DockPaneCaptionFactory();
-      dockPanel.Extender.AutoHideStripFactory = new VS2012AutoHideStripFactory();
-      dockPanel.Extender.AutoHideWindowFactory = new VS2012AutoHideWindowFactory();
-      dockPanel.Extender.DockPaneStripFactory = new VS2012DockPaneStripFactory();
-      dockPanel.Extender.DockPaneSplitterControlFactory = new VS2012DockPaneSplitterControlFactory();
-      dockPanel.Extender.DockWindowSplitterControlFactory = new VS2012DockWindowSplitterControlFactory();
-      dockPanel.Extender.DockWindowFactory = new VS2012DockWindowFactory();
-      dockPanel.Extender.PaneIndicatorFactory = new VS2012PaneIndicatorFactory();
-      dockPanel.Extender.PanelIndicatorFactory = new VS2012anelIndicatorFactory();
-      dockPanel.Extender.DockOutlineFactory = new VS2012DockOutlineFactory();
-      Skin = CreateVisualStudio2012Light();
+      Measures.AutoHideSplitterSize = 3;
+      Extender.DockPaneCaptionFactory = new VS2012DockPaneCaptionFactory();
+      Extender.AutoHideStripFactory = new VS2012AutoHideStripFactory();
+      Extender.AutoHideWindowFactory = new VS2012AutoHideWindowFactory();
+      Extender.DockPaneStripFactory = new VS2012DockPaneStripFactory();
+      Extender.DockPaneSplitterControlFactory = new VS2012DockPaneSplitterControlFactory();
+      Extender.DockWindowSplitterControlFactory = new VS2012DockWindowSplitterControlFactory();
+      Extender.DockWindowFactory = new VS2012DockWindowFactory();
+      Extender.PaneIndicatorFactory = new VS2012PaneIndicatorFactory();
+      Extender.PanelIndicatorFactory = new VS2012PanelIndicatorFactory();
+      Extender.DockOutlineFactory = new VS2012DockOutlineFactory();
   }
 
-The ``DockPanel`` class allows its rendering effect to be further changed by overriding properties of its 
+The ``ThemeBase`` class allows its rendering effect to be further changed by overriding properties of its 
 ``Extender`` property. The above sample shows that multiple elements are customized,
 
 * DockPaneCapture
@@ -83,8 +89,8 @@ The ``DockPanel`` class allows its rendering effect to be further changed by ove
 * PaneIndicator
 * PanelIndicator
 
-``Measures`` stores several numbers that control size/length of a few controls. ``SplitterSize`` is here to 
-control the size of splitters.
+``Measures`` stores several numbers that control size/length of a few controls. ``SplitterSize`` and
+``AutoHideSplitterSize`` is here to control the sizes of splitters.
 
 ``CleanUp`` method should be implemented if a customized ``IPaintingService`` implementation is used 
 to clean up GDI+ resources.
@@ -113,12 +119,15 @@ rendered at top, where clicking on a tab can switch to a document,
 .. image:: _static/document_pane.png
 
 For tool panes, their strips (shown in blue rectangle below ) contain the tabs of the tools and are rendered 
-at bottom, where clicking on a tab can switch to a tool,
+at bottom, where clicking on a tab can switch to a tool.
 
 .. image:: _static/tool_pane.png
 
+ Visual Studio 2012 themes use separators between adjacent tool window tabs, while Visual Studio 2013 and 
+ above uses more complicated borders.
+
 However, tool panes also have their captions (shown in red rectangle above), where the tool can be closed 
-or hidden.
+or hidden. 
 
 When a visible tool pane becomes auto-hide, it would be rendered as an auto-hide strip,
 
@@ -129,8 +138,9 @@ When this auto-hide tool pane is activated, it slides out and shows an auto-hide
 
 .. image:: _static/autohide_window.png
 
-When a dock content is dragged and move over the dock panel area, indicators are displayed to show where 
-it can be dropped,
+When a dock content is dragged and move over the dock panel area, indicator icons are displayed to show which 
+target locations this content can be dropped at, and the outline (the blue rectangle in the figure) of the 
+content will also be rendered to show how the content would look like once dropped.
 
 .. image:: _static/dock_indicator.png
 
