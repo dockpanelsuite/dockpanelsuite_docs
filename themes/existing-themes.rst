@@ -19,7 +19,7 @@ To apply this theme, the following code can be used,
   var theme = new VS2003Theme();
   this.dockPanel.Theme = theme;
   
-.. note:: For 2.10 and above, a reference to ``ThemeVS2003.dll`` (from NuGet package `DockPanelSuite.ThemeVS2003 <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2003>`_) is needed.
+.. note:: For 2.10 and above, a reference to ``WeifenLuo.WinFormsUI.Docking.ThemeVS2003.dll`` (from NuGet package `DockPanelSuite.ThemeVS2003 <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2003>`_) is needed.
 
 Visual Studio 2005 Theme
 ------------------------
@@ -53,9 +53,9 @@ To apply the Dark theme, the following code can be used::
   var theme = new VS2012DarkTheme();
   this.dockPanel.Theme = theme;
 
-.. note:: For 2.10, a reference to ``ThemeVS2012Light.dll`` (from NuGet package `DockPanelSuite.ThemeVS2012Light <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012Light>`_) is needed. 
+.. note:: For 2.10, a reference to ``WeifenLuo.WinFormsUI.Docking.ThemeVS2012Light.dll`` (from NuGet package `DockPanelSuite.ThemeVS2012Light <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012Light>`_) is needed. 
 
-.. note:: For 2.11 and above, a reference to ``ThemeVS2012.dll`` (from NuGet package `DockPanelSuite.ThemeVS2012 <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012>`_) is needed.
+.. note:: For 2.11 and above, a reference to ``WeifenLuo.WinFormsUI.Docking.ThemeVS2012.dll`` (from NuGet package `DockPanelSuite.ThemeVS2012 <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2012>`_) is needed.
 
 Visual Studio 2013 Themes
 -------------------------
@@ -84,9 +84,42 @@ To apply the Dark theme, the following code can be used::
   var theme = new VS2013DarkTheme();
   this.dockPanel.Theme = theme;
 
-.. note:: For 2.10, a reference to ``ThemeVS2013Blue.dll`` (from NuGet package `DockPanelSuite.ThemeVS2013Blue <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2013Blue>`_) is needed.
+.. note:: For 2.10, a reference to ``WeifenLuo.WinFormsUI.Docking.ThemeVS2013Blue.dll`` (from NuGet package `DockPanelSuite.ThemeVS2013Blue <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2013Blue>`_) is needed.
 
-.. note:: For 2.11 and above, a reference to ``ThemeVS2013.dll`` (from NuGet package `DockPanelSuite.ThemeVS2013 <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2013>`_) is needed.
+.. note:: For 2.11 and above, a reference to ``WeifenLuo.WinFormsUI.Docking.ThemeVS2013.dll`` (from NuGet package `DockPanelSuite.ThemeVS2013 <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2013>`_) is needed.
+
+Visual Studio 2015 Themes
+-------------------------
+Three themes are there to simulate Visual Studio 2015 Blue, Light and Dark. 
+
+.. note:: The Blue, Dark and Light themes is introduced in 2.11 release.
+
+To apply the Blue theme, the following code can be used::
+
+.. code-block:: csharp
+
+  var theme = new VS2015BlueTheme();
+  this.dockPanel.Theme = theme;
+
+To apply the Light theme, the following code can be used::
+
+.. code-block:: csharp
+
+  var theme = new VS2015LightTheme();
+  this.dockPanel.Theme = theme;
+
+To apply the Dark theme, the following code can be used::
+
+.. code-block:: csharp
+
+  var theme = new VS2015DarkTheme();
+  this.dockPanel.Theme = theme;
+
+.. note:: For 2.11 and above, a reference to ``WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll`` (from NuGet package `DockPanelSuite.ThemeVS2015 <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2015>`_) is needed.
+
+Visual Studio 2010 Blue Theme
+-----------------------------
+This theme is not yet completed due to its visual complexity, so it is only shipped in source code.
 
 Visual Studio 2005 Theme for Multiple UI Threads
 ------------------------------------------------
@@ -94,9 +127,7 @@ This is derived from the default theme of DockPanel Suite. It is released for ap
 
 Switching among Themes
 ----------------------
-The sample project demonstrates how to switch among themes,
-
-https://github.com/dockpanelsuite/dockpanelsuite/blob/master/DockSample/MainForm.cs#L139
+`The sample project <https://github.com/dockpanelsuite/dockpanelsuite/blob/master/DockSample/MainForm.cs>`_ demonstrates how to switch among themes in `MainForm.SetSchema`,
 
 Related Resources
 -----------------
