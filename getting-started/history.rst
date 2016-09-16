@@ -35,6 +35,14 @@ Ryan Rastedt purchased the dockpanelsuite.com domain name and designed a new hom
 
 This organization evaluated and merged many community patches. A few releases, such as 2.6, 2.7, 2.8, 2.9, and 2.10 have been published in the past few years.
 
+Several significant changes have been introduced in recent releases. 
+
+* Kamen Turboto [19]_ started Visual Studio 2012 Light theme in 2012, which since then becomes the basis for all new themes.
+* ParallelLoeter contributed a patch to have close buttons on document tabs [20]_ in 2000, which later is used in all new themes.
+* yck1509 developed pressed image support in his fork [21]_ in 2015, which is used in all new themes. 
+* Thijs Elenbaas [22]_ started Visual Studio 2013 Blue theme in 2015, which inspires the later themes.
+* Dan Pries [23]_ suggested a color palette based theme design in early 2016, which is later fully implemented by Lex Li.
+
 .. rubric:: Footnotes
 
 .. [1] http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/1.0.0.0/
@@ -55,6 +63,11 @@ This organization evaluated and merged many community patches. A few releases, s
 .. [16] http://sourceforge.net/projects/dockpanelsuite/forums/forum/402316/topic/5271451
 .. [17] https://github.com/nirvdrum/svn2git
 .. [18] http://dockpanelsuite.com
+.. [19] https://dockpanel2012.codeplex.com/SourceControl/list/changesets
+.. [20] https://sourceforge.net/p/dockpanelsuite/discussion/402316/thread/c45070d3/
+.. [21] https://github.com/yck1509/dockpanelsuite/commit/72645c566987fb43fee469770d842f5f49c1fb97
+.. [22] https://github.com/thijse/dockpanelsuite/
+.. [23] https://github.com/dockpanelsuite/dockpanelsuite/issues/317
 
 Related Resources
 -----------------
