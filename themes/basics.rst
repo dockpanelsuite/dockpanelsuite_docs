@@ -1,5 +1,5 @@
-Basics
-======
+Theming Basics
+==============
 
 By `Lex Li`_
 

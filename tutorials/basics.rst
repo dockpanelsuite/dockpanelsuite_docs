@@ -1,5 +1,5 @@
-Basics
-======
+Basic Usages
+============
 
 By `Lex Li`_
 
