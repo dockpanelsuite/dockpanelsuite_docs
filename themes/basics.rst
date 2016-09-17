@@ -15,33 +15,52 @@ A theme is a collection of multiple elements which control the rendering effect 
 
 .. code-block:: csharp
   
-  public class VS2012LightTheme : ThemeBase
+  public class VS2012LightTheme : VS2012ThemeBase
   {
       public VS2012LightTheme()
+          : base(Resources.vs2012light)
       {
-          ColorPalette = new DockPanelColorPalette(Resources.vs2012light);
+      }
+  }
+
+  public abstract class VS2012ThemeBase : ThemeBase
+  {
+      public VS2012ThemeBase(byte[] resources, IDockPaneSplitterControlFactory splitterFactory, IWindowSplitterControlFactory windowsSplitterFactory)
+      {
+          ColorPalette = new DockPanelColorPalette(new VS2012PaletteFactory(resources));
           Skin = new DockPanelSkin();
           PaintingService = new PaintingService();
           ImageService = new ImageService(this);
+          ToolStripRenderer = new VisualStudioToolStripRenderer(ColorPalette);
           Measures.SplitterSize = 6;
           Measures.AutoHideSplitterSize = 3;
+          Measures.DockPadding = 6;
+          ShowAutoHideContentOnHover = false;
           Extender.DockPaneCaptionFactory = new VS2012DockPaneCaptionFactory();
           Extender.AutoHideStripFactory = new VS2012AutoHideStripFactory();
           Extender.AutoHideWindowFactory = new VS2012AutoHideWindowFactory();
           Extender.DockPaneStripFactory = new VS2012DockPaneStripFactory();
-          Extender.DockPaneSplitterControlFactory = new VS2012DockPaneSplitterControlFactory();
-          Extender.WindowSplitterControlFactory = new VS2012WindowSplitterControlFactory();
+          Extender.DockPaneSplitterControlFactory = splitterFactory ?? new VS2012DockPaneSplitterControlFactory();
+          Extender.WindowSplitterControlFactory = windowsSplitterFactory ?? new VS2012WindowSplitterControlFactory();
           Extender.DockWindowFactory = new VS2012DockWindowFactory();
           Extender.PaneIndicatorFactory = new VS2012PaneIndicatorFactory();
           Extender.PanelIndicatorFactory = new VS2012PanelIndicatorFactory();
           Extender.DockOutlineFactory = new VS2012DockOutlineFactory();
           Extender.DockIndicatorFactory = new VS2012DockIndicatorFactory();
       }
+
+      public override void CleanUp(DockPanel dockPanel)
+      {
+          PaintingService.CleanUp();
+          base.CleanUp(dockPanel);
+      }
   }
 
 2.11 release introduces the new palette based skins, which makes creating new themes much easier. 
 By exporting .vstheme files from Visual Studio Color Theme Manager, and injecting them into the constructor 
 of ``DockPanelColorPalette``, the theme can extract the necessary colors from them.
+
+.. note:: Visual Studio 2010 Color Theme Manager exported .vstheme files are not supported yet as it uses a different schema.
 
 ``DockPanelSkin`` was a simple container of different kinds of colors. It was mainly developed for 
 Visual Studio 2005 theme.
@@ -118,6 +137,10 @@ content will also be rendered to show how the content would look like once dropp
 .. image:: _static/dock_indicator.png
 
 It is very important to understand such elements and then you can see how the Extender mechanism works.
+
+Internally ``ThemeBase.ToolStripRenderer`` is used to associate themes with context menu strips and other menu 
+strips. If you are developing an application, this renderer can also be used for other menu strips outside of 
+DockPanel Suite scope.
 
 Related Resources
 -----------------
