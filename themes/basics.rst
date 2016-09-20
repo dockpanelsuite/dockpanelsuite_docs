@@ -138,9 +138,9 @@ content will also be rendered to show how the content would look like once dropp
 
 It is very important to understand such elements and then you can see how the Extender mechanism works.
 
-Internally ``ThemeBase.ToolStripRenderer`` is used to associate themes with context menu strips and other menu 
-strips. If you are developing an application, this renderer can also be used for other menu strips outside of 
-DockPanel Suite scope.
+Internally the method ``ThemeBase.ApplyTo`` can be used to associate themes with context menu strips and other 
+menu strips. If you are developing an application, this method allows the theme renderer be used for other menu 
+strips outside of DockPanel Suite scope.
 
 Related Resources
 -----------------

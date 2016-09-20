@@ -32,21 +32,21 @@ Three themes are there to simulate Visual Studio 2012 Blue, Light and Dark.
 
 .. note:: The Light theme is introduced in 2.9 release. The Dark theme is introduced in 2.11 release.
 
-To apply the Blue theme, the following code can be used::
+To apply the Blue theme, the following code can be used,
 
 .. code-block:: csharp
 
   var theme = new VS2012BlueTheme();
   this.dockPanel.Theme = theme;
 
-To apply the Light theme, the following code can be used::
+To apply the Light theme, the following code can be used,
 
 .. code-block:: csharp
 
   var theme = new VS2012LightTheme();
   this.dockPanel.Theme = theme;
 
-To apply the Dark theme, the following code can be used::
+To apply the Dark theme, the following code can be used,
 
 .. code-block:: csharp
 
@@ -63,21 +63,21 @@ Three themes are there to simulate Visual Studio 2013 Blue, Light and Dark.
 
 .. note:: The Blue theme is introduced in 2.10 release. The Dark and Light themes is introduced in 2.11 release.
 
-To apply the Blue theme, the following code can be used::
+To apply the Blue theme, the following code can be used,
 
 .. code-block:: csharp
 
   var theme = new VS2013BlueTheme();
   this.dockPanel.Theme = theme;
 
-To apply the Light theme, the following code can be used::
+To apply the Light theme, the following code can be used,
 
 .. code-block:: csharp
 
   var theme = new VS2013LightTheme();
   this.dockPanel.Theme = theme;
 
-To apply the Dark theme, the following code can be used::
+To apply the Dark theme, the following code can be used,
 
 .. code-block:: csharp
 
@@ -94,21 +94,21 @@ Three themes are there to simulate Visual Studio 2015 Blue, Light and Dark.
 
 .. note:: The Blue, Dark and Light themes is introduced in 2.11 release.
 
-To apply the Blue theme, the following code can be used::
+To apply the Blue theme, the following code can be used,
 
 .. code-block:: csharp
 
   var theme = new VS2015BlueTheme();
   this.dockPanel.Theme = theme;
 
-To apply the Light theme, the following code can be used::
+To apply the Light theme, the following code can be used,
 
 .. code-block:: csharp
 
   var theme = new VS2015LightTheme();
   this.dockPanel.Theme = theme;
 
-To apply the Dark theme, the following code can be used::
+To apply the Dark theme, the following code can be used,
 
 .. code-block:: csharp
 

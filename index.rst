@@ -21,15 +21,8 @@ Topics
     themes/index
     contribute/index
 
-Related Resources
------------------
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-Contribute
-----------
+Contribute to Documentation
+---------------------------
 
 The documentation on this site is the handiwork of our many `contributors <https://github.com/dockpanelsuite/dockpanelsuite/wiki/Maintainers>`_.
 

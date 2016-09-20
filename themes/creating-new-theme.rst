@@ -22,6 +22,8 @@ Below we show an example of developing a custom Visual Studio 2012 theme based o
 #. Change its constructor to use the .vstheme file from the resources.
 #. (Optional) Write your own element factory classes and bind them to ``Theme.Extender`` if you want to further customize rendering effect.
 
+.. note:: If you don't want to use Color Theme Manager, please analyze ``VS2012PaletteFactory`` source code to see from where each colors come.
+
 Once the project can compile without an error, you get your own theme ready for testing.
 
 Related Resources
