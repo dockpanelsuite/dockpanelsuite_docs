@@ -83,6 +83,7 @@ Change the base type to ``WeifenLuo.WinFormsUI.Docking.DockContent``
   
 Install DockPanel Suite via Source Code
 ---------------------------------------
+.. note:: This approach requires Visual Studio 2015 and above. Please switch to NuGet package approach if you use older VS releases.
 
 DockPanel Suite source code can be directly used in your project. 
 
@@ -131,8 +132,9 @@ Change the base type to ``WeifenLuo.WinFormsUI.Docking.DockContent``
 Compile DockPanel Suite from Source Code
 ----------------------------------------
 1. Download the source code from `GitHub <https://github.com/dockpanelsuite/dockpanelsuite/releases>`_ , or clone the repo directly.
-2. Make sure that .NET Framework 4.0 (or above) is installed.
-3. Run ``all.bat`` in the source code to start compilation.
+2. Install .NET Framework 4.0 (or above) if it is not yet installed.
+3. Install Visual Studio 2015 (like Community edition) or above.
+4. Run ``all.bat`` in the source code to start compilation.
 
 If everything works, then the binaries are in the ``bin`` folder.
 
