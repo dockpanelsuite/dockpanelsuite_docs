@@ -21,6 +21,10 @@ Topics
     themes/index
     contribute/index
 
+Frequent Asked Questions (FAQ)
+------------------------------
+We use `GitHub <https://github.com/dockpanelsuite/dockpanelsuite/issues?q=label%3A%22faq+candidate%22+is%3Aclosed>`_ to manage the list.
+
 Contribute to Documentation
 ---------------------------
 
@@ -28,5 +32,4 @@ The documentation on this site is the handiwork of our many `contributors <https
 
 **We accept pull requests!** But you're more likely to have yours accepted if you follow these guidelines:
 
-	1. Read the `Contributing Guide <https://github.com/dockpanelsuite/dockpanelsuite_docs/blob/master/CONTRIBUTING.md>`_.
-	2. Follow the `ASP.NET 5 Docs Style Guide <https://docs.asp.net/en/latest/contribute/style-guide.html>`_.
+Read the `Contributing Guide <https://github.com/dockpanelsuite/dockpanelsuite_docs/blob/master/CONTRIBUTING.md>`_.
