@@ -8,7 +8,7 @@
 DockPanel Suite Documentation
 =============================
 
-.. attention:: DockPanel Suite 2.14 is now available on NuGet! Please read the :doc:`Getting Started <getting-started/index>` instructions for installing the latest version from NuGet.
+.. attention:: DockPanel Suite 2.15 is now available on NuGet! Please read the :doc:`Getting Started <getting-started/index>` instructions for installing the latest version from NuGet.
 
 Topics
 ------
