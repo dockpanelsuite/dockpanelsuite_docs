@@ -15,7 +15,24 @@ Simply call ``DockContent.Activate``. This is usually used to show a tab as acti
 
 Prevent The DockContent From Being Closed
 -----------------------------------------
-To prevent a ``DockContent`` from every being closed, utilize the ``CloseButton`` property. 
+
+You can use the ``OnFormClosing`` method to prevent the user from closing under certain 
+conditions that cannot be determined until runtime (for example, showing a dialog box asking 
+the user if they are really sure they wish to close the tab),
+
+.. code-block:: csharp
+
+  public CustomContent : DockContent
+  {
+      protected override void OnFormClosing(FormClosingEventArgs e)
+      {
+          bool cancel = /* add your closing validation here */;
+          e.Cancel = cancel;
+          base.OnFormClosing(e);
+      }
+  }
+
+To prevent a ``DockContent`` from every being closed, you can also utilize the ``CloseButton`` property. 
 You can also utilize the ``CloseButtonVisible`` property to hide the close button when docked 
 in the ``DockPanel`` control,
 
@@ -34,23 +51,9 @@ in the ``DockPanel`` control,
           CloseButtonVisible = false;
       }
   }
-  
-You can also use the ``OnFormClosing`` method to prevent the user from closing under certain 
-conditions that cannot be determined until runtime (for example, showing a dialog box asking 
-the user if they are really sure they wish to close the tab),
 
-.. code-block:: csharp
+.. note:: Due to the changes in the new themes, the usage of `CloseButtonVisible` can lead to unexpected result. Please refer to `this GitHub issue <https://github.com/dockpanelsuite/dockpanelsuite/issues/464>`_ for more information. 
 
-  public CustomContent : DockContent
-  {
-      protected override void OnFormClosing(FormClosingEventArgs e)
-      {
-          bool cancel = /* add your closing validation here */;
-          e.Cancel = cancel;
-          base.OnFormClosing(e);
-      }
-  }
-  
 Controlling Default Height or Width When Set to Auto-Hide
 ---------------------------------------------------------
 The property ``DockContent.AutoHidePortion`` controls the auto-hide behaviors.
