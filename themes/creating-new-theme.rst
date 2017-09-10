@@ -33,7 +33,7 @@ Below we show an example of developing a custom Visual Studio 2012 theme based o
 
 #. Open Visual Studio 2012 and install Color Theme Manager extension.
 #. Create a new theme there and export as a .vstheme file.
-#. Use tools such as `7-Zip <http://7-zip.org>`_ to compress the file as .gz.
+#. Use tools such as `7-Zip <http://7-zip.org>`_ to compress the file using gzip archive format as .gz.
 #. Open ``ThemeVS2012.csproj``.
 #. Put the .gz file into ``ThemeVS2012\Resources`` folder and add it to Resources.resx.
 #. Copy ``ThemeVS2012\VS2012LightTheme.cs`` to ``ThemeVS2012\VS2012CustomTheme``.
