@@ -20,6 +20,7 @@ Topics
     tutorials/index
     themes/index
     contribute/index
+    support/index
 
 Frequent Asked Questions (FAQ)
 ------------------------------
