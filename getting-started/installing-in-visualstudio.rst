@@ -12,9 +12,11 @@ This page shows you how to install DockPanel Suite to your project on Windows.
 Recommended Steps
 -----------------
 .. important:: In latest Visual Studio 2017, you don't need the following.
+   Please use the NuGet packages according to
+   :doc:`/getting-started/installing-on-windows`.
 
-#. Follow :doc:`/getting-started/installing-on-windows` to compile DockPanel
-   Suite binaries. 
+#. Compile DockPanel Suite binaries, according to
+   :doc:`/getting-started/installing-on-windows`.
 #. Open Visual Studio, and navigate to its Toolbox panel.
 #. Expand a tab such as General, or create a new tab by right clicking and
    choosing "Add Tab" menu item.
