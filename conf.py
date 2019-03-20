@@ -382,7 +382,7 @@ epub_exclude_files = ['search.html']
 
 feed_num_items = 15
 feed_skip_regex = '(.)*index'
-feed_base_url = 'http://docs.dockpanelsuite.com/en/latest'
+feed_base_url = 'http://docs.dockpanelsuite.com'
 feed_description = 'DockPanel Suite Documentation'
 feed_author = 'Ryan Rastedt, Lex Li, and others'
 

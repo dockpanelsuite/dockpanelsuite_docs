@@ -1,6 +1,6 @@
 {
-    "restructuredtext.confPath": "/Users/lextm/dockpanelsuite_docs",
     "editor.rulers": [
         79
-    ]
+    ],
+    "restructuredtext.confPath": "${workspaceFolder}"
 }

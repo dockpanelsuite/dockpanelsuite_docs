@@ -15,7 +15,7 @@ Submitting a Patch
 An issue might be opened to discuss with the maintainers before creating the patch. This helps the 
 maintainers track your progress, and provide guidance if needed.
 
-#. Learn about GitHub via http://help.github.com/.
+#. Learn about GitHub via https://help.github.com/.
 #. Create your own fork from the main repo at https://github.com/dockpanelsuite/dockpanelsuite.
 #. Create a new branch with a meaningful name.
 #. Make the changes on this new branch in your fork, and test it fully.
@@ -51,13 +51,13 @@ Reporting a Bug
 
 .. note:: If you are not sure whether it is a bug, please follow `Asking a Question`_ section.
 
-#. Learn about GitHub via http://help.github.com/.
+#. Learn about GitHub via https://help.github.com/.
 #. Review existing issues at https://github.com/dockpanelsuite/dockpanelsuite/issues that are marked as bug or enhancement to avoid duplicate.
 #. Please also review all open bugs on `SF.net tracker <https://sourceforge.net/tracker/?group_id=110642>`_ before reporting. Existing bugs recorded on SF.net may be gradually fixed in this fork, so you don't need to create duplicate items on GitHub.
 #. Create a new issue on https://github.com/dockpanelsuite/dockpanelsuite/issues and provide all information in details.
 
 You are welcome to provide step by step instructions, as that can help other reproduce and investigate 
-the issue. If you are willing to share a sample project, please use a service such as `DropBox <http://dropbox.com>`_ or `OneDrive <http://onedrive.com>`_.
+the issue. If you are willing to share a sample project, please use a service such as `DropBox <https://dropbox.com>`_ or `OneDrive <https://onedrive.com>`_.
 
 Reviewing a Bug
 ---------------
@@ -81,7 +81,7 @@ Asking a Question
 Asking a Question on StackOverflow (Recommended)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Log into `StackOverflow <http://stackoverflow.com>`_.
+#. Log into `StackOverflow <https://stackoverflow.com>`_.
 #. Before starting asking a new question, please review all questions under tag ``dockpanel-suite`` in case yours has already been answered.
 #. Click Ask Question to create a new question. 
 #. Add tag ``dockpanel-suite`` to this question, and also include all information in details.
@@ -91,7 +91,7 @@ Then you can wait till users reply to your question.
 Asking a Question on GitHub
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Learn about GitHub via http://help.github.com/.
+#. Learn about GitHub via https://help.github.com/.
 #. Before creating the issue, please review all existing issues especially our `FAQ <https://github.com/dockpanelsuite/dockpanelsuite/issues?labels=faq+candidate&milestone=&page=1&state=closed>`_ in case the issue has already been reported and resolved.
 #. Create a new issue on https://github.com/dockpanelsuite/dockpanelsuite/issues and provide all information in details. 
 

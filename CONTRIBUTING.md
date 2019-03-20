@@ -4,7 +4,7 @@ This document is derived from ASP.NET 5 [Contributing Guide](https://github.com/
 
 Information on contributing to this repo is in the [Contributing Guide](https://github.com/dockpanelsuite/dockpanelsuite/blob/dev/CONTRIBUTING.md) in the Home repo.
 
-The documentation is built using [Sphinx](http://sphinx-doc.org) and [reStructuredText](http://sphinx-doc.org/rest.html), and then hosted by [ReadTheDocs](http://dockpanelsuite.readthedocs.org).
+The documentation is built using [Sphinx](http://sphinx-doc.org) and [reStructuredText](http://sphinx-doc.org/rest.html).
 
 ## Building the Docs ##
 
@@ -52,10 +52,9 @@ You can also install [sphinx-autobuild](https://github.com/GaretJax/sphinx-autob
 
 Before adding content, submit an issue with a suggestion for your proposed article. Provide detail on what the article would discuss, and how it would relate to existing documentation.
 
-Also, please review the following style guides:
+Also, please review the following style guide:
 
 - [Sphinx Style Guide](http://documentation-style-guide-sphinx.readthedocs.org/en/latest/style-guide.html)
-- [ASP.NET Docs Style Guide](http://docs.asp.net/en/latest/contribute/style-guide.html)
 
 Articles should be organized into logical groups or sections. Each section should be given a named folder (e.g. /yourfirst). That section contains the rst files for all articles in the section. For images and other static resources, create a subfolder that matches the name of the article. Within this subfolder, create a ``sample`` folder for code samples and a  ``_static`` folder for images and other static content.
 
@@ -89,7 +88,7 @@ Author information should be placed in the _authors folder following the example
 
 **Step 3:** Create a `branch` for your article.
 
-**Step 4:** Write your article, placing the article in its own folder and any needed images in a _static folder located in the same folder as the article. Be sure to follow the [ASP.NET Docs Style Guide](http://docs.asp.net/en/latest/contribute/style-guide.html). If you have code samples, place them in a folder within the `/samples/` folder.
+**Step 4:** Write your article, placing the article in its own folder and any needed images in a _static folder located in the same folder as the article. If you have code samples, place them in a folder within the `/samples/` folder.
 
 **Step 5:** Submit a Pull Request from your branch to `dockpanelsuite_docs/master`.
 
