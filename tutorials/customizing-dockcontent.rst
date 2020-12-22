@@ -52,7 +52,10 @@ in the ``DockPanel`` control,
       }
   }
 
-.. note:: Due to the changes in the new themes, the usage of `CloseButtonVisible` can lead to unexpected result. Please refer to `this GitHub issue <https://github.com/dockpanelsuite/dockpanelsuite/issues/464>`_ for more information. 
+.. note:: Due to the changes in the new themes, the usage of
+   ``CloseButtonVisible`` can lead to unexpected result. Please refer to
+   `this GitHub issue <https://github.com/dockpanelsuite/dockpanelsuite/issues/464>`_
+   for more information. 
 
 Controlling Default Height or Width When Set to Auto-Hide
 ---------------------------------------------------------

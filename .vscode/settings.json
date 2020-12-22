@@ -2,5 +2,6 @@
     "editor.rulers": [
         79
     ],
+    "restructuredtext.languageServer.disabled": false,
     "restructuredtext.confPath": "${workspaceFolder}"
 }

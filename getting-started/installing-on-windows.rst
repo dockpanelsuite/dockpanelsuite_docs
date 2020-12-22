@@ -92,8 +92,7 @@ Install DockPanel Suite via Source Code
 
 DockPanel Suite source code can be directly used in your project. 
 
-#. Download the source code from `GitHub <https://github.com/dockpanelsuite/dockpanelsuite/releases>`_ ,
-   or clone the repo directly.
+#. Download the source code from `GitHub`_ or clone the repo directly.
 
 #. Open/create a empty Windows Forms project in a solution.
 
@@ -141,8 +140,7 @@ DockPanel Suite source code can be directly used in your project.
 
 Compile DockPanel Suite from Source Code
 ----------------------------------------
-#. Download the source code from `GitHub <https://github.com/dockpanelsuite/dockpanelsuite/releases>`_ ,
-   or clone the repo directly.
+#. Download the source code from `GitHub`_ or clone the repo directly.
 #. Install Visual Studio 2017 (like Community edition) or above.
 #. Install .NET Framework 4.0 (or above) if it is not yet installed.
 #. Install .NET Framework 3.5.1 if it is not yet installed.
@@ -157,3 +155,5 @@ Related Resources
 - :doc:`/getting-started/history`
 - :doc:`/tutorials/basics`
 - :doc:`/themes/existing-themes`
+
+.. _GitHub: https://github.com/dockpanelsuite/dockpanelsuite/releases>
