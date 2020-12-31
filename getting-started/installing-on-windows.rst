@@ -156,4 +156,4 @@ Related Resources
 - :doc:`/tutorials/basics`
 - :doc:`/themes/existing-themes`
 
-.. _GitHub: https://github.com/dockpanelsuite/dockpanelsuite/releases>
+.. _GitHub: https://github.com/dockpanelsuite/dockpanelsuite/releases
