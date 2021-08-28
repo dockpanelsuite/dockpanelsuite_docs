@@ -8,7 +8,11 @@
 DockPanel Suite Documentation
 =============================
 
-.. attention:: DockPanel Suite 3.0 is now available on NuGet! Please read the :doc:`Getting Started <getting-started/index>` instructions for installing the latest version from NuGet.
+.. note:: DockPanel Suite 3.1 is now available on NuGet! Please read the :doc:`Getting Started <getting-started/index>` instructions for installing the latest version from NuGet.
+
+.. warning:: This project is now looking for new maintainers. Please read
+   `this <https://github.com/dockpanelsuite/dockpanelsuite/issues/663>`_ for
+   more information.
 
 Topics
 ------
