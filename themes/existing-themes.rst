@@ -25,8 +25,7 @@ Visual Studio 2005 Theme
 ------------------------
 This is a theme that simulates Visual Studio 2005.
 
-.. note:: This is the default theme of DockPanel Suite before 3.1 release. When you create a new instance of ``DockPanel`` 
-class, the dock panel and its contents use this theme automatically.
+.. note:: This is the default theme of DockPanel Suite before 3.1 release. When you create a new instance of ``DockPanel`` class, the dock panel and its contents use this theme automatically.
 
 To apply this theme, the following code can be used,
 
