@@ -23,8 +23,19 @@ To apply this theme, the following code can be used,
 
 Visual Studio 2005 Theme
 ------------------------
-This is the default theme of DockPanel Suite. When you create a new instance of ``DockPanel`` 
+This is a theme that simulates Visual Studio 2005.
+
+.. note:: This is the default theme of DockPanel Suite before 3.1 release. When you create a new instance of ``DockPanel`` 
 class, the dock panel and its contents use this theme automatically.
+
+To apply this theme, the following code can be used,
+
+.. code-block:: csharp
+
+  var theme = new VS2005Theme();
+  this.dockPanel.Theme = theme;
+
+.. note:: For 3.1 and above, a reference to ``WeifenLuo.WinFormsUI.Docking.ThemeVS2005.dll`` (from NuGet package `DockPanelSuite.ThemeVS2005 <https://www.nuget.org/packages/DockPanelSuite.ThemeVS2005>`_) is needed.
 
 Visual Studio 2012 Themes
 -------------------------
