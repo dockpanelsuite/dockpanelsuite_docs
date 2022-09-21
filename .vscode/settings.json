@@ -2,6 +2,6 @@
     "editor.rulers": [
         79
     ],
-    "restructuredtext.languageServer.disabled": false,
-    "restructuredtext.confPath": "${workspaceFolder}"
+    "restructuredtext.syntaxHighlighting.disabled": true,
+    "esbonio.sphinx.confDir": "${workspaceFolder}"
 }

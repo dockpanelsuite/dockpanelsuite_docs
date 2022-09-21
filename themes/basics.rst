@@ -68,7 +68,7 @@ Visual Studio 2005 theme.
 The ``ThemeBase`` class allows its rendering effect to be further changed by overriding properties of its 
 ``Extender`` property. The above sample shows that multiple elements are customized,
 
-* DockPaneCapture
+* DockPaneCaption
 * DockPaneStrip
 * DockPaneSplitter
 * AutoHideStrip
@@ -92,11 +92,16 @@ Visual Elements of A Theme
 --------------------------
 Here is a full screen shot of an application that uses DockPanel Suite.
 
-.. image:: _static/full.png
+.. figure:: _static/full.png
+
+   Figure 1: A DockPanel Suite enabled application.
+
 
 So generally speaking, such an application employs multiple dock panes, which are highlighted,
 
-.. image:: _static/panes.png
+.. figure:: _static/panes.png
+
+   Figure 2: Dock panes highlighted.
 
 You can see five panes are there and between panes, splitters are rendered.
 
@@ -106,12 +111,17 @@ A simple pane (such as pane 2 and 5) only contains a single dock content, but a 
 For document panes, their strips (shown in red rectangle below) contain the tabs of the documents and are 
 rendered at top, where clicking on a tab can switch to a document,
 
-.. image:: _static/document_pane.png
+.. figure:: _static/document_pane.png
+
+   Figure 3: Document pane with its strip highlighted
 
 For tool window panes, their strips (shown in blue rectangle below ) contain the tabs of the tool windows 
 and are rendered at bottom, where clicking on a tab can switch to a tool.
 
-.. image:: _static/tool_pane.png
+.. figure:: _static/tool_pane.png
+
+   Figure 4: Tool panes. The top pane has its strip highlighted in blue. The bottom pane
+   has its caption highlighted in red.
 
 Visual Studio 2012 themes use separators between adjacent tool window tabs, while Visual Studio 2013 and 
 above uses more complicated borders.
@@ -123,18 +133,24 @@ window can be closed or hidden.
 
 When a visible tool window pane becomes auto-hide, it would be rendered on an auto-hide strip as a tab,
 
-.. image:: _static/autohide_strip.png
-  :width: 226
+.. figure:: _static/autohide_strip.png
+   :width: 226
+
+   Figure 5: Auto-hide strip showed on the right hand side.
 
 When this auto-hide tool window tab is activated, the tool window slides out and shows in an auto-hide window,
 
-.. image:: _static/autohide_window.png
+.. figure:: _static/autohide_window.png
+
+   Figure 6: Auto-hide window popped up.
 
 When a dock content is dragged and move over the dock panel area, indicator icons are displayed to show which 
 target locations this content can be dropped at, and the outline (the blue rectangle in the figure) of the 
 content will also be rendered to show how the content would look like once dropped.
 
-.. image:: _static/dock_indicator.png
+.. figure:: _static/dock_indicator.png
+
+   Figure 7: Dock indicator showed when a document is dragged and dropped.
 
 It is very important to understand such elements and then you can see how the Extender mechanism works.
 
