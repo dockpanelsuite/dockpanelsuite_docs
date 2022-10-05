@@ -37,7 +37,7 @@ This organization evaluated and merged many community patches. A few releases, s
 
 Several significant changes have been introduced in recent releases,
 
-* Kamen Turboto [19]_ started Visual Studio 2012 Light theme in 2012, which since then becomes the basis for all new themes.
+* Kamen Turboto [19]_ started Visual Studio 2012 Light theme in 2012, which since then becomes the foundation for all new themes.
 * ParallelLoeter contributed a patch to have close buttons on document tabs [20]_ in 2010, which later is used in all new themes.
 * yck1509 developed pressed image support in his fork [21]_ in 2015, which is used in all new themes. 
 * Thijs Elenbaas [22]_ started Visual Studio 2013 Blue theme in 2015, which inspires the later themes.

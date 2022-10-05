@@ -39,8 +39,8 @@ which gives the contributors a hint that the process has begun.
 
 Further responses can be like,
 
-* "Comments have been left at **. Please revise your patch like this,"
-* "Reviewed. ** will be merged, while ** will not. The reasons are,"
+* "Comments have been left at \*\*. Please revise your patch like this,"
+* "Reviewed. \*\* will be merged, while \*\* will not. The reasons are,"
 
 which will keep all discussions public to reveal all necessary technical information for future reference.
 
@@ -70,8 +70,8 @@ which gives the contributors a hint that the process has begun.
 
 Further responses can be like,
 
-* "Could not reproduce it. Please provide more information to assist investigation such as **,"
-* "Reviewed. ** is a bug that can be reproduced. Will perform further investigation on how to resolve it. This may take a long time."
+* "Could not reproduce it. Please provide more information to assist investigation such as \*\*,"
+* "Reviewed. \*\* is a bug that can be reproduced. Will perform further investigation on how to resolve it. This may take a long time."
 
 which will keep all discussions public to reveal all necessary technical information for future reference.
 
@@ -108,8 +108,8 @@ which gives the contributors a hint that the process has begun.
 
 Further responses can be like,
 
-* "Could not reproduce it. Please provide more information to assist investigation such as **,"
-* "Reviewed. ** is a bug that can be reproduced. Will perform further investigation on how to resolve it. This may take a long time."
+* "Could not reproduce it. Please provide more information to assist investigation such as \*\*,"
+* "Reviewed. \*\* is a bug that can be reproduced. Will perform further investigation on how to resolve it. This may take a long time."
 
 which will keep all discussions public to reveal all necessary technical information for future reference.
 
