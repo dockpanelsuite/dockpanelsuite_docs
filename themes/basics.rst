@@ -14,7 +14,7 @@ The Structure of A Theme
 A theme is a collection of multiple elements which control the rendering effect of DockPanel Suite.
 
 .. code-block:: csharp
-  
+
   public class VS2012LightTheme : VS2012ThemeBase
   {
       public VS2012LightTheme()
