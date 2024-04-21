@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 sphinx-rtd-theme = "*"
+sphinx-notfound-page = "*"
 esbonio = "*"
 
 [dev-packages]
