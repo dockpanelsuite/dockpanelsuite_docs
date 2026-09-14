@@ -1,0 +1,18 @@
+[project]
+name = "dockpanelsuite-docs"
+version = "0.1.0"
+description = "Documentation site for DockPanel Suite"
+authors = [
+  { name = "LeXtudio Inc.", email = "support@lextudio.com" }
+]
+readme = "README.md"
+requires-python = ">=3.13"
+
+# Runtime dependencies (was Pipfile [packages])
+dependencies = [
+  "sphinx-rtd-theme",
+  "sphinx-notfound-page",
+  "esbonio"
+]
+
+# This project is a documentation site; no build backend needed for distribution.
